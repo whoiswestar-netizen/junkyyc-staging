@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#bg)" stroke="#047857" stroke-width="4"/>
+
+  <!-- AI Text -->
+  <text x="50" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">AI</text>
+
+  <!-- Recycling symbol -->
+  <g transform="translate(50,60)">
+    <!-- Recycling arrows -->
+    <path d="M-8,-8 L0,-12 L8,-8 L6,-4 L12,0 L8,4 L-8,4 Z" fill="none" stroke="white" stroke-width="2"/>
+    <path d="M-6,-6 L-2,-10 L6,-6 L4,-2 L10,2 L6,6 L-6,6 Z" fill="none" stroke="white" stroke-width="1.5"/>
+    <path d="M-4,-4 L-0,-8 L4,-4 L2,0 L8,4 L4,8 L-4,8 Z" fill="none" stroke="white" stroke-width="1"/>
+  </g>
+</svg>
